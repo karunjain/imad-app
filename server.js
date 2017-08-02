@@ -16,8 +16,16 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/article-one', function (req, res) {
-res.send('Article one requested and will be served here');
+app.get('/Topics', function (req, res) {
+res.send('Topics one requested and will be served here');
+    
+});
+app.get('/Sub-Topics', function (req, res) {
+res.send('Sub Topics one requested and will be served here');
+    
+});
+app.get('/ Sub-Sub-Topics', function (req, res) {
+res.send('Sub-Sub Topics one requested and will be served here');
     
 });
 
