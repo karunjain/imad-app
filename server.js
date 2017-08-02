@@ -24,7 +24,7 @@ app.get('/SubTopics', function (req, res) {
 res.send('Sub Topics one requested and will be served here');
     
 });
-app.get('/ SubsTopics', function (req, res) {
+app.get('/SubsTopics', function (req, res) {
 res.send('Sub-Sub Topics one requested and will be served here');
     
 });
