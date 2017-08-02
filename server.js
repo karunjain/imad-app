@@ -29,7 +29,7 @@ res.send('Spiderman.....!!!!');
     
 });
 
-app.get('/google', function (req, res) {
+app.get('/google.html', function (req, res) {
 res.send( link ="www.google.co.in");
     
 });
