@@ -30,7 +30,7 @@ res.send('Spiderman.....!!!!');
 });
 
 app.get('/google', function (req, res) {
-res.send( link ="www.google.co.in");
+res.sendFile(path.join(__dirname, 'ui', 'google.html'));
     
 });
 // Do not change port, otherwise your app won't run on IMAD servers
