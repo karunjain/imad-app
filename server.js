@@ -20,12 +20,12 @@ app.get('/Topics', function (req, res) {
 res.send('Topics one requested and will be served here');
     
 });
-app.get('/SubTopics', function (req, res) {
-res.send('Sub Topics one requested and will be served here');
+app.get('/SuperMan', function (req, res) {
+res.send('SuperMan');
     
 });
-app.get('/SubsTopics', function (req, res) {
-res.send('Sub-Sub Topics one requested and will be served here');
+app.get('/Spiderman', function (req, res) {
+res.send('Spiderman');
     
 });
 
