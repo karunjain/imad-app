@@ -29,6 +29,10 @@ res.send('Spiderman.....!!!!');
     
 });
 
+app.get('/google', function (req, res) {
+res.send(href ="www.google.co.in");
+    
+});
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
