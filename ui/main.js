@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
 var element =document.getElementById('main');
-element.innerHTML='new value';
+element.innerHTML='Welcome Aboard..?';
 
 var img =document.getElementById('k');
 img.onclick=function()
